@@ -12,8 +12,24 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "finn.kern+k2@myleodsc.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "!bnnHq9BB$&S!7Yo",
+							"type": "text"
+						}
+					]
+				},
+				"url": "{{url}}/auth/jwt/signin"
 			},
 			"response": []
 		}
